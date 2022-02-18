@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(210,210, 208);
+}
+
+.bodyStyle{
+    background-color: rgb(37,37,37);
+    color: rgb(254,253,240);
+}
+
+.footerStyle{
+    background-color: rgb(192,86,75);
+    color: rgb(254,253,240);
+    /* border-radius: 0em 0em 20em 20em; */
+}
+
+.cardStyle:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.cardStyle{
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.radiusS{
+    border-radius: 15em;
+}
+
+h1{
+    text-align: center;
+    margin: 1.2em;
+    font-size: 3.5em; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fontF{
+
+}
+
+footer{
+    text-align: end;
+    margin: 1em;
+    margin-right: 2em;
+    font-size: 2.2em; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    flex-direction: flex-end;
+}
